@@ -34,8 +34,7 @@ class GameFragment : Fragment() {
     var userTimeLeft: Long = timePerQuestion
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_game, container, false)
@@ -85,7 +84,6 @@ class GameFragment : Fragment() {
 
         }
     }
-
 
     private fun pressNextButton(operator: Char) {
         buttonNext.setOnClickListener {

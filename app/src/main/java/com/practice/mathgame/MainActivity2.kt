@@ -21,5 +21,4 @@ class MainActivity2 : AppCompatActivity() {
             .commit()
     }
 
-
 }
